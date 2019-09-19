@@ -8,7 +8,40 @@ body {
   min-width: 20em
 }
 
-
 #form-container{
+  background-color: lightgrey;
+  margin: 0 auto;
+  border-radius: 4px;
+  width: 85%;
+  maxwidth: 900px;
+  padding: 1em .5em;
+}
+
+.labels{
+  display: inline-block;
+  text-align: right;
   
+}
+.rightTab{
+  display: inline-block;
+  margin: 3px 10px;
+  padding: 8px;
+  
+}
+
+.input-field{
+  padding: 2px;
+  border: 2px solid grey;
+  border-radius: 4px;
+  box-sizing: border-box;
+  
+}
+
+.rowOver{
+  text-align: right;
+  }
+@media (max-width: 300px ) {
+  .rowOver{
+  text-align: left;
+  }
 }
