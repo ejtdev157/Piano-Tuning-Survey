@@ -20,13 +20,13 @@ body {
 .labels{
   display: inline-block;
   text-align: right;
-  
+
 }
 .rightTab{
   display: inline-block;
   margin: 3px 10px;
   padding: 8px;
-  
+
 }
 
 .input-field{
@@ -34,14 +34,35 @@ body {
   border: 2px solid grey;
   border-radius: 4px;
   box-sizing: border-box;
-  
+
 }
 
 .rowOver{
   text-align: right;
   }
+.rowLeft{
+  text-align: left;
+}
+.question{
+  font-family:courier;
+}
 @media (max-width: 300px ) {
   .rowOver{
   text-align: left;
   }
 }
+
+.radio, .checkbox {
+  position: relative;
+  left: -40px;
+  margin: 5px;
+  font-size: 14px;
+}
+
+.form-input{
+  display: inline-block;
+  width: 60%;
+  text-align: left;
+  vetical-align: middle;
+
+  
